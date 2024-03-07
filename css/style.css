@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    height: 80px;
+    background-color: rgb(104, 14, 14);
+}
+
+.content {
+    height: 95px;
+    background-color: rgba(193, 210, 213, 0.934);
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(104, 14, 14);
+}
