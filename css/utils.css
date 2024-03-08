@@ -20,10 +20,19 @@
     max-width: 60vw;
 }
 
-.btn {}
+.btn {
+    padding: 0px 15px;
+    padding-top: 3px;
+    border:2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+}
 
 .form-input {
     padding: 0px 5px;
+    padding-top: 3px;
     font-size: 16px;
     border:2px solid black;
     border-radius: 4px;
