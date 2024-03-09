@@ -7,7 +7,7 @@
     font-family: var(--font1);
     color: white;
     height: 80px;
-    background-color: rgb(104, 14, 14);
+    background-color: rgb(75, 89, 103);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,9 +29,15 @@
     list-style: none;
     margin: 0 14px;
 }
+
 .nav-left ul li a{
     text-decoration: none;
     color: white;
+    /* transition: all 0.3s ease-in-out; */
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
 }
 .nav-right{
     font-size: large;
@@ -42,6 +48,7 @@
     height: 395px;
     margin-top: 35px;
     background-color: rgba(193, 210, 213, 0.934);
+    padding: 9px;
 }
 .content-left{
 font-family: var(--font1);
@@ -61,7 +68,18 @@ justify-content: center;
   border: 2px solid black;
   border-radius: 200px;
 }
+.home-articles{
+   height: 455px;
+   background-color: rgba(119, 132, 134, 0.934);
+}
+.home-article{
+
+}
 .footer {
     height: 50px;
-    background-color: rgb(104, 14, 14);
+    background-color: rgb(75, 89, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }

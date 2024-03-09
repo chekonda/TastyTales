@@ -6,7 +6,13 @@
     --main-bg-color: brown;
     --font1:'Baloo Bhaina 2',cursive;
     --font2: 'Roboto',sans-serif;
-}    
+}  
+.font1{
+font-family: var(--font1);
+}  
+.font2{
+  font-family: var(--font2);
+}
 
 .m-auto {
     margin: auto;
